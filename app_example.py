@@ -41,6 +41,7 @@ app = Flask(__name__)
 
 #Run a Flask app.
 #create a function 
+<<<<<<< HEAD:app.py
 def welcome():
     return(
     '''
@@ -143,3 +144,7 @@ def stats(start =None , end =None):
     return jsonify(temps = temps)
 
 
+=======
+def hello_world():
+    return "Hello World"
+>>>>>>> 7fe39adb48862a1582563174768661743b004eb3:app_example.py
