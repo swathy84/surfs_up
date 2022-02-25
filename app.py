@@ -45,12 +45,12 @@ app = Flask(__name__)
 def welcome():
     return(
     '''
-    Welcome to the Climate Analysis API!
-    Available Routes:
-    /api/v1.0/precipitation
-    /api/v1.0/stations
-    /api/v1.0/tobs
-    /api/v1.0/temp/start/end
+    Welcome to the Climate Analysis API!<br/>
+    Available Routes: <br/>
+    /api/v1.0/precipitation <br/>
+    /api/v1.0/stations <br/>
+    /api/v1.0/tobs <br/>
+    /api/v1.0/temp/start/end <br/>
     ''')
 
 #creating the route for precipitation 
@@ -144,7 +144,3 @@ def stats(start =None , end =None):
     return jsonify(temps = temps)
 
 
-=======
-def hello_world():
-    return "Hello World"
->>>>>>> 7fe39adb48862a1582563174768661743b004eb3:app_example.py
